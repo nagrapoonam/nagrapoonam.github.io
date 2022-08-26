@@ -1,0 +1,78 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: "Rozha One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.drop-zone-bg {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drop-zone-logo {
+	position: absolute;
+  	top: 5%;
+  	right: 5%;
+}
+
+.drop-zone-logo h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Rozha One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+	background: black;
+	color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.drop-zone-timer {
+    position: absolute;
+}
+
+.drop-zone-timer h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Rozha One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.drop-zone-timer-clock, .drop-zone-timer-clock-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.drop-zone-timer-clock-box div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.drop-zone-time-description {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.drop-zone-timer-day h1, .drop-zone-timer-hours h1, .drop-zone-timer-minutes h1, .drop-zone-timer-seconds h1 {
+	font-family: "Rozha One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+	background: black;
+	color: white;
+    text-align: center;
+    letter-spacing: 5px;
+	padding: 4px 16px;
+}
